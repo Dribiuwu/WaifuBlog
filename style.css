@@ -145,7 +145,7 @@ hr {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 10px;;
+  padding: 10px;
 }
 .card-survey h3{
   margin-top: -10px;
@@ -203,4 +203,23 @@ hr {
   width: 100%;
   border-style: solid;
   border-color: white;
+}
+/* footer */
+.foot {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 20vh;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(93, 93, 93, 0.5);
+  border: solid 3px white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.footer-text {
+  font-size: 2.5rem;
+  color: white;
+  margin: 20px;
 }
