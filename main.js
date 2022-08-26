@@ -4,7 +4,7 @@ document.querySelector('.menu-btn').addEventListener('click', () => {
 
 ScrollReveal().reveal('.container');
 ScrollReveal().reveal('.showcase');
-ScrollReveal().reveal('.news-cards', {delay: 500});
-ScrollReveal().reveal('.subtitle', {delay: 500});
-ScrollReveal().reveal('.card-survey', {delay: 500});
-ScrollReveal().reveal('.foot', {delay: 500});
+ScrollReveal().reveal('.news-cards', {delay: 250});
+ScrollReveal().reveal('.subtitle', {delay: 250});
+ScrollReveal().reveal('.card-survey', {delay: 250});
+ScrollReveal().reveal('.foot', {delay: 250});

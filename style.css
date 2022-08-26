@@ -22,6 +22,9 @@ a {
 ul {
   list-style: none;
 }
+p {
+  color: white;
+}
 .container {
   width: 90%;
   margin: auto;
@@ -91,10 +94,17 @@ hr {
   align-items: center;
   justify-content: center;
 }
-.showcase h2, p {
+.showcase h2, .showcase p {
   color: white;
   margin-bottom: 10px;
   width: 90%;
+  text-align: center;
+}
+.showcase h2 {
+  font-size: 4rem;
+}
+.showcase p {
+  font-size: 1.6rem;
 }
 .btn {
   cursor: pointer;
@@ -183,16 +193,16 @@ hr {
   text-decoration: underline;
 }
 .survey-result2 {
-  background: url(imgs/Violet.jpg) no-repeat center center/cover;
+  background: url(imgs/Violet.jpg) no-repeat center 40%/cover;
 }
 .survey-result3 {
-  background: url(imgs/Nino.jpg) no-repeat center center/cover;
+  background: url(imgs/Nino.jpg) no-repeat center 45%/cover;
 }
 .survey-result4 {
-  background: url(imgs/Kemonito.jpeg) no-repeat center center/cover;
+  background: url(imgs/Kemonito.jpeg) no-repeat center 30%/cover;
 }
 .survey-result5 {
-  background: url(imgs/Yor.jpg) no-repeat center center/cover;
+  background: url(imgs/Yor.jpg) no-repeat center 30%/cover;
 }
 .top-title{
   color: white;
@@ -237,7 +247,7 @@ hr {
 @media (max-width: 700px) {
   .nav-main ul.nav-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background: #2f3640;
@@ -278,12 +288,18 @@ hr {
     grid-template-columns: 1fr;
   }
   .showcase-bg h2, p {
-    padding: auto;
-    margin: 0;
+    margin: 0px;
     width: 90%;
     font-size: small;
   }
   .btn {
     margin-bottom: -60px;
+  }
+  .foot {
+    height: 200px;
+  }
+  .footer-text {
+    margin: 15px;
+    font-size: 2rem;
   }
 }
