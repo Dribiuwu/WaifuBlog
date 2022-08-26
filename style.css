@@ -212,6 +212,7 @@ hr {
   height: 20vh;
   width: 90%;
   margin: auto;
+  margin-bottom: 30px;
   background-color: rgba(93, 93, 93, 0.5);
   border: solid 3px white;
   justify-content: center;
@@ -223,3 +224,4 @@ hr {
   color: white;
   margin: 20px;
 }
+
