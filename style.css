@@ -269,8 +269,14 @@ hr {
   .showcase {
     height: 250px;
   }
-  .showcase h2, p {
+  .showcase h2, .showcase p {
     margin: 0px 0;
+  }
+  .showcase h2 {
+    font-size: 4rem;
+  }
+  .showcase p {
+    font-size: 1.6rem;
   }
   .btn:hover {
     opacity: .7;
@@ -283,14 +289,28 @@ hr {
   }
 }
 
+@media (max-width: 620px) {
+  .showcase h2 {
+    font-size: 3rem;
+  }
+  .showcase p {
+    font-size: 1.5rem;
+  }
+  .btn {
+    margin-bottom: -50px;
+  }
+}
+
 @media (max-width: 500px) {
   .news-cards {
     grid-template-columns: 1fr;
   }
-  .showcase-bg h2, p {
+  .showcase {
+    height: 300px;
+  }
+  .showcase-bg h2, .showcase p {
     margin: 0px;
     width: 90%;
-    font-size: small;
   }
   .btn {
     margin-bottom: -60px;
